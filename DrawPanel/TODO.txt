@@ -1,0 +1,26 @@
+PanelView
+    Size drawing to fit window when viewing on screen.
+        Additionally, Zoom options in screen view
+    (Done) Scale drawing to actual size (inches, mm, etc) when printing.
+    (Done) Text labels with font point size
+    (Done) Dial tick marks
+    File object - loads contents of a drwpnl file at a given offset
+        file 2 0 path/my-awesome-panel.drwpnl
+    Scrolling is limited when window is small
+    Fonts
+    (Done) Work in Dark Mode
+
+(Fixed) Don't reload text view after Save!
+
+Document
+    Ability to define custom objects
+    Text
+    Fonts
+    (Done) Child objects relative to parent object - e.g. Panel
+        Use Python style tab indents for children
+
+Export
+    to PDF (see NSDocument.saveToPDF)
+    to CNC files
+
+Layers?
